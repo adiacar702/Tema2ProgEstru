@@ -8,11 +8,12 @@ public class Ejercicio_3 {
 		new Ejercicio_3().show();
 	}
 
+	@SuppressWarnings("resource")
 	public void show() {
 		//		Ejercicio 3
 		//		Dados dos números, indicar si el primero es múltiplo del segundo. Un número x es
 		//		múltiplo de y, si al dividir x entre y, el resto es 0.
-		@SuppressWarnings("resource")
+
 		Scanner keyboard = new Scanner(System.in);
 		int x, y;
 

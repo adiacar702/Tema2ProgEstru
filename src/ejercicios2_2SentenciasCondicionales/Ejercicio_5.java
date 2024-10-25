@@ -8,6 +8,7 @@ public class Ejercicio_5 {
 		new Ejercicio_5().show();
 	}
 
+	@SuppressWarnings("resource")
 	public void show() {
 		//		Ejercicio 5
 		//		Dada una nota, que te muestre lo siguiente: (hacerlo con anidación y con switch)
@@ -17,7 +18,7 @@ public class Ejercicio_5 {
 		//		6: Bien
 		//		7, 8: Notable
 		//		9, 10: Sobresaliente
-		@SuppressWarnings("resource")
+
 		Scanner keyboard = new Scanner(System.in);
 		int x;
 
@@ -39,32 +40,32 @@ public class Ejercicio_5 {
 			System.out.println("Sobresaliente");
 		}
 
-		//SWITCH
-		//		switch (x) {
-		//		case 0:
-		//		case 1:
-		//		case 2:
-		//			System.out.println("Muy Deficiente");
-		//			break;
-		//		case 3:
-		//		case 4:
-		//			System.out.println("Insuficiente");
-		//			break;
-		//		case 5:
-		//			System.out.println("Suficiente");
-		//			break;
-		//		case 6:
-		//			System.out.println("Bien");
-		//			break;
-		//		case 7:
-		//		case 8:
-		//			System.out.println("Notable");
-		//			break;
-		//		case 9:
-		//		case 10:
-		//			System.out.println("Sobresaliente");
-		//			break;
-		//		}
-	}
+		//SWITCH ANTIGUO
+		switch (x) {
+		case 0:
+		case 1:
+		case 2:
+			System.out.println("Muy Deficiente");
+			break;
+		case 3:
+		case 4:
+			System.out.println("Insuficiente");
+			break;
+		case 5:
+			System.out.println("Suficiente");
+			break;
+		case 6:
+			System.out.println("Bien");
+			break;
+		case 7:
+		case 8:
+			System.out.println("Notable");
+			break;
+		case 9:
+		case 10:
+			System.out.println("Sobresaliente");
+			break;
+		}
 
+	}
 }

@@ -8,10 +8,10 @@ public class Ejercicio_2 {
 		new Ejercicio_2().show();
 	}
 
+	@SuppressWarnings("resource")
 	public void show() {
 		//		Ejercicio 2
 		//		Dado un número, indicar si es par o impar.
-		@SuppressWarnings("resource")
 		Scanner keyboard = new Scanner(System.in);
 		double x;
 

@@ -8,11 +8,11 @@ public class Ejercicio_1 {
 		new Ejercicio_1().show();
 	}
 
+	@SuppressWarnings("resource")
 	public void show() {
 		//		Ejercicio 1
 		//		Dada una cantidad, si es mayor de 1000, que muestre el 15% de dicha cantidad. Si no,
 		//		que no haga nada.
-		@SuppressWarnings("resource")
 		Scanner keyboard = new Scanner(System.in);
 		double x = 0;
 		double result;

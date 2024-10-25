@@ -8,10 +8,11 @@ public class Ejercicio_4 {
 		new Ejercicio_4().show();
 	}
 
+	@SuppressWarnings("resource")
 	public void show() {
 		//		Ejercicio 4
 		//		Dado un número entero, indicar si el número es positivo, negativo o cero.
-		@SuppressWarnings("resource")
+
 		Scanner keyboard = new Scanner(System.in);
 		int x;
 
